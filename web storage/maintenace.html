@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maintenance</title>
+</head>
+<body>
+	<form>
+		<input type="button" id="clear_button" value="Clear storage"/>
+	</form>
+<script>
+	window.onload() = function(){
+		var clearButton = document.getElementById("clear_button");
+		clearButton.onclick = function(){
+			localStorage.clear();
+		}
+	}	
+</script>
+</body>
+</html>
